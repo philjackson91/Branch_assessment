@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.headingText {
+  margin: 0;
+  color: #000;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 0.37px;
+}
+.button {
+  padding: 0 17px;
+  height: 28px;
+  letter-spacing: 0.14px;
+  border-radius: 4px;
+  border-width: 1px;
+  background-color: transparent;
+}
+.button.inactive {
+  color: #b8b8b8;
+  border-color: #b8b8b8;
+}
+.button.active {
+  color: #ee0000;
+  border-color: #ee0000;
+}

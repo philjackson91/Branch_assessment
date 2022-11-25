@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  padding-top: 22px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.form .name,
+.form .role {
+  width: 50%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  font-weight: 500;
+}
+.name input {
+  width: 240px;
+}
+
+.role {
+  padding-left: 28px;
+  border: 0;
+  border-left: 1px solid #e5e5e5;
+}
+.roleLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.roleChoice {
+  margin-bottom: 8px;
+}

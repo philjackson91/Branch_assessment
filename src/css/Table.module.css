@@ -1,0 +1,34 @@
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+.tableHeader {
+  padding: 9px 0;
+  color: #777;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.13px;
+  text-align: left;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.tableRow:hover .tableCell {
+  background-color: #fafafa;
+}
+.tableRow:hover .tableEmail a {
+  color: #0070c9;
+}
+
+.tableCell {
+  padding: 14px 0;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+}
+.tableSelect {
+  width: 50px;
+  padding: 14px 21px 14px 15px;
+}
+.tableEmail a {
+  color: #333;
+  text-decoration: none;
+}
